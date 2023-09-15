@@ -6,7 +6,7 @@ TalentRecruiter is a job hunting platform where users can find the desired jobs.
 
 ## 🚀Home page:
 
-The home page will include the features Navbar, Banner section, job trading where user can find latest jobs, customer review where user can see our all customer brand name. Feature job section, subscribe section, footer section
+The home page will include the features Navbar, Banner section,footer section, job trading where user can find latest jobs, customer review where user can see our all customer brand name.
 
 ## 🚀Category:
 

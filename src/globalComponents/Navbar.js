@@ -28,7 +28,7 @@ const Navbar = () => {
   };
   // navbar sticky to when scroll end
   const [checkbox, setCheckbox] = useState(false);
-  const [adminCheckbox, setAdminCheckbox] = useState(false);
+  //const [adminCheckbox, setAdminCheckbox] = useState(false);
   const { user, accessToken } = useSelector((state) => state.auth || {});
 
   // console.log(user?.role)
@@ -141,20 +141,25 @@ const Navbar = () => {
                 ) : (
                   <>
                     <div className="hidden md:static md:flex gap-2 md:items-center md:justify-end md:inset-y-0 md:right-4">
-                      <Button
-                        type="bulgary"
-                        htmlType="submit"
-                        className="mr-3 border-[#FDB82C] hover:border-[rgb(253,184,44)] hover:bg-transparent"
-                      >
-                        <NavLink to="/register">Sign Up</NavLink>
-                      </Button>
-                      <Button
-                        type="bulgary"
-                        htmlType="submit"
-                        className="bg-[#FDB82C]  border-[#FDB82C] hover:border-[rgb(253,184,44)] hover:bg-transparent"
-                      >
-                        <NavLink to="/login">Log In</NavLink>
-                      </Button>
+                      <NavLink to="/register">
+                        <Button
+                          type="bulgary"
+                          htmlType="submit"
+                          className="mr-3 border-[#FDB82C] hover:border-[rgb(253,184,44)] hover:bg-transparent"
+                        >
+                          Sign Up
+                        </Button>
+                      </NavLink>
+
+                      <NavLink to="/login">
+                        <Button
+                          type="bulgary"
+                          htmlType="submit"
+                          className="bg-[#FDB82C]  border-[#FDB82C] hover:border-[rgb(253,184,44)] hover:bg-transparent"
+                        >
+                          Log In
+                        </Button>
+                      </NavLink>
                     </div>
                   </>
                 )}

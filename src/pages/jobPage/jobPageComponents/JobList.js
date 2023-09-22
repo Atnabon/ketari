@@ -29,19 +29,19 @@ const JobList = () => {
 
         <div className="flex justify-center pt-16">
           <div className="btn-group gap-1">
-            <button className="btn-primary bg-[#fdb82c] hover:bg-transparent text-white border-[#fdb82c] hover:border-primary hover:text-primary active hover:marker:border-secondary btn-md ">
+            <button className="btn-primary active hover:marker:border-secondary btn-md text-white">
               Prev
             </button>
-            <button className="btn-primary bg-[#fdb82c] hover:bg-transparent text-white border-[#fdb82c] hover:border-primary hover:text-primary  btn-md ">
+            <button className="btn-primary hover:bg-accent btn-md text-white">
               1
             </button>
-            <button className="btn-primary bg-[#fdb82c] hover:bg-transparent text-white border-[#fdb82c] hover:border-primary hover:text-primary  btn-md ">
+            <button className="btn-primary hover:bg-accent btn-md text-white">
               2
             </button>
-            <button className="btn-primary bg-[#fdb82c] hover:bg-transparent text-white border-[#fdb82c] hover:border-primary hover:text-primary  btn-md ">
+            <button className="btn-primary hover:bg-accent btn-md text-white">
               3
             </button>
-            <button className="btn-primary bg-[#fdb82c] hover:bg-transparent text-white border-[#fdb82c] hover:border-primary hover:text-primary  btn-md ">
+            <button className="btn-primary hover:bg-accent btn-md text-white">
               Next
             </button>
           </div>

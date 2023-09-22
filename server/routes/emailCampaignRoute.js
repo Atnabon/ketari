@@ -4,7 +4,7 @@ const {
   emailNewsLetterSent,
   emailNewsLetterConfirm,
 } = require("../controllers/emailCampaignController");
-const roleAuthCheck = require("../Middleware/roleAuthCheck"); //role checking middleware
+const roleAuthCheck = require("../Middleware/roleAuthCheck");
 
 const router = express.Router();
 

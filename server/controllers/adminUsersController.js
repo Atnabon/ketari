@@ -1,6 +1,5 @@
 const User = require("../Model/userSchema");
 const emailSender = require("../utilities/emailSender");
-// const emailSender = require("../utilities/emailSender");
 
 // get Users
 const getAdminUsers = async (req, res, next) => {
@@ -40,7 +39,7 @@ const updateUserRole = async (req, res, next) => {
           password: 0,
           __v: 0,
         },
-      },
+      }
     );
     // console.log(user);
     res.status(200).json({ user });

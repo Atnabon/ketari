@@ -6,7 +6,7 @@ TalentRecruiter is a job hunting platform where users can find the desired jobs.
 
 ## 🚀Home page:
 
-The home page will include the features Navbar, Banner section,footer section, job trading where user can find latest jobs, customer review where user can see our all customer brand name.
+The home page will include the features Navbar, ,footer section, job trending where user can find latest jobs, customer review where user can see our all customer brand name.
 
 ## 🚀Category:
 
@@ -18,7 +18,7 @@ In the section, we will show the Job list. It will be related to the category at
 
 ## 🚀Job detail page:
 
-In this section, users can see job detail with job deadlines, job summaries, employer names so on.
+In this section, users can see job detail with job deadlines, job summaries.
 
 ## 🚀Login and Registration:
 
@@ -39,7 +39,3 @@ The recruiter can post their job in detail. He can update his profile if anyone 
 ## 🚀Applicant dashboard:
 
 Applicant can see their applied job in detail and they can cancel the applied job and also able to update his/her own profile.
-
-## 🚀CV builder (optional):
-
-Applicant builds their own resume using his/her information for example. Education, skill, if have experience, project/works with detail, Full name, and job title.

@@ -1,7 +1,7 @@
 const Category = require("../Model/categorySchema");
 const asyncHandler = require("express-async-handler");
 
-// @desc All Job Controller
+// All Job Controller
 const getAllCategory = asyncHandler(async (req, res, next) => {
   console.log(req.user);
   try {
@@ -14,7 +14,7 @@ const getAllCategory = asyncHandler(async (req, res, next) => {
     next(err);
   }
 });
-// @desc create a category Controller
+// create a category Controller
 const createCategory = asyncHandler(async (req, res, next) => {
   try {
     const category = req.body;
@@ -37,10 +37,10 @@ const createCategory = asyncHandler(async (req, res, next) => {
     next(err);
   }
 });
-// delete category by admin
+// category by admin
 const deleteCategory = asyncHandler(async (req, res, next) => {
-    const { id } = req.params;
-    console.log(id);
+  const { id } = req.params;
+  console.log(id);
   try {
     const category = await Category.findByIdAndDelete(id);
     if (category) {

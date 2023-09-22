@@ -1,7 +1,7 @@
 const Job = require("../Model/jobSchema");
 const asyncHandler = require("express-async-handler");
 
-// @desc All Job Controller
+//  All Job Controller
 const getAllJobs = asyncHandler(async (req, res, next) => {
   try {
     const Jobs = await Job.find().populate("category", "recruiter");
@@ -15,7 +15,7 @@ const getAllJobs = asyncHandler(async (req, res, next) => {
   }
 });
 
-// @desc Job Detail Controller
+// Job Detail Controller
 const getSingleJob = asyncHandler(async (req, res, next) => {
   try {
     const job = await Job.findById(req.params.id).populate(
@@ -34,7 +34,7 @@ const getSingleJob = asyncHandler(async (req, res, next) => {
   }
 });
 
-// @desc Update Job Controller
+// Update Job Controller
 const updateJob = asyncHandler(async (req, res, next) => {
   try {
     const job = await Job.findByIdAndUpdate(req.params.id, req.body, {

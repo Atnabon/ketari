@@ -57,7 +57,6 @@ const jobSchema = mongoose.Schema(
     },
     company_link: {
       type: String,
-      required: true,
     },
     recruiter: {
       type: mongoose.Schema.Types.ObjectId,

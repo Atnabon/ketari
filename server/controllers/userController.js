@@ -13,7 +13,7 @@ exports.registerUser = async (req, res, next) => {
       return res.status(400).json({ message: "User already exists" });
     } else {
       if (name && email && role && password) {
-        //sent email table for marketing purpose
+        //sent email
         await emails.create({ email });
         //otherwise create a new user
         const hashedPassword = await bcrypt.hash(password, 10); //hashed password
@@ -23,7 +23,7 @@ exports.registerUser = async (req, res, next) => {
           role,
           password: hashedPassword,
         });
-        const insertResult = await user.save(); //inset in the db
+        const insertResult = await user.save(); //insert in the db
         // exclude field response in mongoose
         const {
           password: userPass,

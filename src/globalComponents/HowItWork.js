@@ -12,7 +12,7 @@ const HowItWork = () => {
       <div className="py-10 container mx-auto p-4">
         <div className="text-center">
           <h1 className="text-2xl sm:text-3xl md:text-4xl mb-3 font-bold text-primary">
-            How Talent Recruiter Work
+            How It Works
           </h1>
           <p className="text-sm font-bold py-1">
             Ketari is a job hunting platform where users can find the desired

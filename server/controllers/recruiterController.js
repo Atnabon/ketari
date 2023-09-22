@@ -2,7 +2,7 @@ const Job = require("../Model/jobSchema");
 const asyncHandler = require("express-async-handler");
 const AppliedJob = require("../Model/appliedJobSchema");
 
-// @desc Get Job All Via Applicant Id
+// Get Job All Via Applicant Id
 const getJobByRecruiter = asyncHandler(async (req, res, next) => {
   try {
     const getJobByRecruiter = await Job.find({
@@ -25,7 +25,7 @@ const getJobByRecruiter = asyncHandler(async (req, res, next) => {
   }
 });
 
-// @desc Get Job All Via Applicant Id
+// Get Job All Via Applicant Id
 const getApplicantByJob = asyncHandler(async (req, res, next) => {
   console.log(req.params.id);
   try {
@@ -49,7 +49,7 @@ const getApplicantByJob = asyncHandler(async (req, res, next) => {
   }
 });
 
-// @desc Post New Job Controller
+// Post New Job Controller
 const postJob = asyncHandler(async (req, res, next) => {
   try {
     const newJob = await Job.create({ ...req.body, recruiter: req.user.id });
@@ -74,7 +74,7 @@ const postJob = asyncHandler(async (req, res, next) => {
   }
 });
 
-// @desc  Delete Job Controller
+// Delete Job Controller
 const deleteJob = asyncHandler(async (req, res, next) => {
   try {
     const isDelete = await Job.findOneAndDelete({

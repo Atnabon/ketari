@@ -2,10 +2,11 @@ import React from "react";
 import { Outlet, useLocation } from "react-router-dom";
 import AdminSidebar from "./adminPageComponents/AdminSidebar";
 import PageTitle from "../../globalComponents/PageTitle";
-import AdminDashboard from "./adminSubPages/AdminDashboard";
+//import AdminDashboard from "./adminSubPages/AdminDashboard";
 
 const AdminPage = () => {
   const location = useLocation().pathname;
+
   return (
     <>
       <PageTitle title="Admin" />

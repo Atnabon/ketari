@@ -1,5 +1,5 @@
 import React from "react";
-import ReviewMain from "./homePageComponents/ReviewMain";
+//import ReviewMain from "./homePageComponents/ReviewMain";
 import HowItWork from "../../globalComponents/HowItWork";
 import Banner from "./homePageComponents/Banner";
 import Newsletter from "../../globalComponents/Newsletter";

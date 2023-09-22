@@ -68,23 +68,19 @@ const Footer = () => {
             <ul className="mt-5">
               <li className="flex justify-start items-center text-neutral gap-1 mb-3 hover:text-accent">
                 <BiRightArrowAlt className="text-primary" />
-                <Link to="#">Softweer Enginner</Link>
+                <Link to="#">Web, Mobile, & Software Development</Link>
               </li>
               <li className="flex justify-start text-neutral gap-1 mb-3 hover:text-accent">
                 <BiRightArrowAlt className="text-primary" />
-                <Link to="#">Accountant</Link>
+                <Link to="#">Sales and Marketing</Link>
               </li>
               <li className="flex justify-start text-neutral gap-1 mb-3 hover:text-accent">
                 <BiRightArrowAlt className="text-primary" />
-                <Link to="#">UI/UX Designer</Link>
+                <Link to="#">Engineering and Architecture</Link>
               </li>
               <li className="flex justify-start text-neutral gap-1 mb-3 hover:text-accent">
                 <BiRightArrowAlt className="text-primary" />
-                <Link to="#">Content Writer</Link>
-              </li>
-              <li className="flex justify-start text-neutral gap-1 mb-3 hover:text-accent">
-                <BiRightArrowAlt className="text-primary" />
-                <Link to="#">Digital Marketer</Link>
+                <Link to="#">Accounting and Consulting</Link>
               </li>
             </ul>
           </div>
@@ -179,7 +175,7 @@ const Footer = () => {
       <div className="p-4 bg-[#fdb82c] text-base-100">
         <div className="flex justify-center items-center">
           <p className="text-xs">
-            Copyright © 2023- All right reserved: team-script-squad
+            Copyright © 2023- All right reserved: team-eagle
           </p>
         </div>
       </div>

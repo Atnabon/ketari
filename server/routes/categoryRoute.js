@@ -1,5 +1,5 @@
 const express = require("express");
-const roleAuthCheck = require("../Middleware/roleAuthCheck"); //role checking middleware
+const roleAuthCheck = require("../Middleware/roleAuthCheck");
 const {
   getAllCategory,
   createCategory,

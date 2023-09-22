@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const ProfileBanner = () => {
   return (
@@ -29,9 +30,14 @@ const ProfileBanner = () => {
               social and emotional traits; as well as the values and aspirations
               that drive them forward.
             </p>
-          <button className="btn rounded-none px-4 md:px-7 duration-700 py-3 bg-[#fdb82c] hover:bg-transparent text-white border-[#fdb82c] hover:border-primary hover:text-primary font-bold border-2 hover:border-2">
-              Create Profile
-            </button>
+            <Link to="/login">
+              <button
+                className="btn rounded-none px-4 md:px-7 duration-700 py-3 bg-[#fdb82c] hover:bg-transparent text-white border-[#fdb82c] 
+                hover:border-primary hover:text-primary font-bold border-2 hover:border-2"
+              >
+                Create Profile
+              </button>
+            </Link>
           </div>
         </div>
         {/*.........profile section info data end..............*/}

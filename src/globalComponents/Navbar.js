@@ -110,7 +110,7 @@ const Navbar = () => {
 
                   <li className="font-bold">
                     <NavLink
-                      to="/login"
+                      to="/register"
                       style={({ isActive }) =>
                         isActive ? activeStyle : undefined
                       }

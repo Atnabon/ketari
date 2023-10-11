@@ -4,7 +4,7 @@ import { CSSTransition } from "react-transition-group";
 const AnimatedImages = () => {
   const [isImageVisible, setIsImageVisible] = useState(true);
   const [image1Src] = useState("habesha-girl.png");
-  const [image2Src] = useState("");
+  const [image2Src] = useState("habesha-guy.png");
 
   useEffect(() => {
     const interval = setInterval(toggleImage, 5000);

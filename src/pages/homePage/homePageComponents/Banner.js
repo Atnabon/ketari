@@ -55,9 +55,11 @@ const Banner = () => {
 
         {/*......Banner image start........*/}
 
+        {/*
         <figure className="col-span-2 md:col-span-1 w-full">
           <AnimatedImages />
         </figure>
+        */}
       </div>
     </section>
   );

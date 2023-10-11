@@ -11,7 +11,7 @@ const Banner = () => {
     console.log("Count: " + count);
     setCount(1);
   }, [count]);
-  
+
   return (
     <section id="banner" className="bg-[#f2f5fb] py-16">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 justify-center items-center gap-4 container mx-auto px-5">
@@ -30,7 +30,7 @@ const Banner = () => {
               className="text-3xl sm:text-5xl md:text-6xl font-bold text-[#fec557]  mb-3 md:mb-5 lg:mb-8"
             />
             <p className="font-bold text-[#758995]  md:text-base lg:text-base">
-            Search for Jobs, Employment & Career Opportunities
+              Search for Jobs, Employment & Career Opportunities
             </p>
           </div>
           <div>
@@ -49,21 +49,15 @@ const Banner = () => {
             <p className="bg-[#fec557] p-1 text-white cursor-pointer rounded-lg text-sm">
               Marketing & Sales
             </p>
-
           </div>
         </div>
         {/*......Banner info data end.......*/}
 
         {/*......Banner image start........*/}
 
-        
-        {/*
         <figure className="col-span-2 md:col-span-1 w-full">
-          <AnimatedImages/>
+          <AnimatedImages />
         </figure>
-
-        */}
-        
       </div>
     </section>
   );

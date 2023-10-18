@@ -37,19 +37,8 @@ const Register = () => {
       <div className="flex py-8 sm:pt-16  px-2 justify-center items-center">
         <div className="card w-96 bg-base-100 shadow-xl rounded-none">
           <div className="card-body">
-            {/* 
-            <div className="flex gap-2 mb-3">
-              <button className="btn bg-[#C80911] border-[#C80911] rounded-none hover:border-[#C80911] border-2 text-white hover:text-[#C80911] w-[49%] hover:shadow-lg font-bold hover:bg-white">
-                Google
-              </button>
-              <button className="btn bg-[#005B7F] border-[#005B7F] rounded-none hover:border-[#005B7F] border-2 text-white hover:text-[#005B7F] w-[49%] hover:shadow-lg font-bold hover:bg-white">
-                Facebook
-              </button>
-            </div>
-            <div className="divider m-0 border-primary">or</div>
-            */}
             <form onSubmit={handleSubmit(onSubmit)}>
-              {/*.........Name Input filed start........... */}
+              {/*Name Input filed start*/}
               <div className="form-control w-full max-w-xs">
                 <label className="label">
                   <span className="label-text">Your Name</span>
@@ -79,9 +68,9 @@ const Register = () => {
                   )}
                 </label>
               </div>
-              {/*.........Name Input filed end.............*/}
+              {/*Name Input filed end*/}
 
-              {/* .........Email Input filed start ............*/}
+              {/*Email Input filed start*/}
               <div className="form-control w-full max-w-xs">
                 <label className="label">
                   <span className="label-text">Email</span>
@@ -114,9 +103,9 @@ const Register = () => {
                   )}
                 </label>
               </div>
-              {/* ...........Email Input filed end .............*/}
+              {/*Email Input filed end*/}
 
-              {/*......... Password Input filed start....... */}
+              {/*Password Input filed start*/}
               <div className="form-control w-full max-w-xs">
                 <label className="label">
                   <span className="label-text">Password</span>
@@ -150,9 +139,9 @@ const Register = () => {
                   )}
                 </label>
               </div>
-              {/*......... Password Input filed start....... */}
+              {/*Password Input filed start*/}
 
-              {/* ..........confirm Password Input filed start...... */}
+              {/*confirm Password Input filed start*/}
               <div className="form-control w-full max-w-xs">
                 <label className="label">
                   <span className="label-text">Confirm Password</span>
@@ -186,8 +175,8 @@ const Register = () => {
                   )}
                 </label>
               </div>
-              {/*.........confirm Password Input filed start.......... */}
-              {/* ..........role checker Input filed start...... */}
+              {/*confirm Password Input filed start*/}
+              {/*role checker Input filed start*/}
               <div className="flex justify-between w-full max-w-xs mb-3">
                 <label className="label label-text">
                   <input
@@ -220,9 +209,9 @@ const Register = () => {
                   Recruiter
                 </label>
               </div>
-              {/*.........role checker Password Input filed start.......... */}
+              {/*role checker Password Input filed start*/}
 
-              {/* ..........Login Button.......... */}
+              {/*Login Button*/}
               <input
                 disabled={isLoading}
                 className="btn btn-primary bg-[#fdb82c] border-[#fdb82c] hover:bg-transparent hover:border-primary hover:text-primary w-full max-w-xs text-white rounded-none hover:shadow-lg"
@@ -233,7 +222,10 @@ const Register = () => {
             <div className="flex justify-center">
               <small>
                 Already have an account?{" "}
-                <Link className="text-primary hover:underline underline" to="/login">
+                <Link
+                  className="text-primary hover:underline underline"
+                  to="/login"
+                >
                   please login
                 </Link>
               </small>

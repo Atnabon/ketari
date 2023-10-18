@@ -1,8 +1,6 @@
 import { NavLink, useLocation, useNavigate } from "react-router-dom";
-import { GoPlug } from "react-icons/go";
 import { IoBookmarksOutline } from "react-icons/io5";
 import { MdPostAdd, MdDeleteSweep } from "react-icons/md";
-import { BsFillFileEarmarkPostFill } from "react-icons/bs";
 import { BiCategoryAlt } from "react-icons/bi";
 import { useDispatch, useSelector } from "react-redux";
 import { logout } from "../../../features/userAuth/userAuthSlice";
@@ -83,20 +81,6 @@ export default function AdminSidebar() {
                 Users
               </span>
             </NavLink>
-
-            {/* <NavLink
-              to="admin-customize"
-              className={(props) => {
-                return `${
-                  props.isActive && "bg-gray-300"
-                } flex items-center md:text-sm text-xs md:font-medium rounded-lg hover:bg-gray-100 px-4 py-2 text-gray-700`;
-              }}
-            >
-              <GoPlug size={20} className="opacity-75" />
-              <span className="ml-3 md:text-sm text-xs md:font-medium">
-                Customize
-              </span>
-            </NavLink> */}
 
             <NavLink
               to="admin-jobs"

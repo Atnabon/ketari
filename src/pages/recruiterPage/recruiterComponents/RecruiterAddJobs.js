@@ -40,7 +40,7 @@ const RecruiterAddJobs = () => {
             })}
             className="w-full bg-secondary p-5 md:p-10 shadow-lg"
           >
-            {/* ........job title input filed......... */}
+            {/* job title input filed*/}
             <div className="flex flex-wrap mb-4">
               <div className="w-full">
                 <label className="block mb-2">Job Title*</label>
@@ -69,9 +69,9 @@ const RecruiterAddJobs = () => {
                 </label>
               </div>
             </div>
-            {/* .......job category and job type......... */}
+            {/*job category and job type*/}
             <div className="flex mb-6 gap-1">
-              {/* .....job category input..... */}
+              {/*job category input*/}
               <div className="w-full md:w-1/2 mb-2 md:mb-0">
                 <label className="block mb-2">Job Category*</label>
                 <select
@@ -111,7 +111,7 @@ const RecruiterAddJobs = () => {
                 </label>
               </div>
 
-              {/* .....job type input..... */}
+              {/*job type input*/}
               <div className="w-full md:w-1/2 mb-2 md:mb-0">
                 <label className="block mb-2">Job Type*</label>
                 <select
@@ -143,9 +143,9 @@ const RecruiterAddJobs = () => {
               </div>
             </div>
 
-            {/* ...Application Deadline and Salary Currency.. */}
+            {/*Application Deadline and Salary Currency*/}
             <div className="flex mb-6 gap-1">
-              {/* .....Application Deadline input..... */}
+              {/*Application Deadline input*/}
               <div className="w-full md:w-1/2 mb-2 md:mb-0">
                 <label className="block mb-2">Deadline*</label>
 
@@ -174,7 +174,7 @@ const RecruiterAddJobs = () => {
                 </label>
               </div>
 
-              {/* .....job type input..... */}
+              {/*job type input*/}
               <div className="w-full md:w-1/2 mb-2 md:mb-0">
                 <label className="block mb-2">Salary*</label>
                 <select
@@ -212,11 +212,11 @@ const RecruiterAddJobs = () => {
               </div>
             </div>
 
-            {/* ...lavel and compani Logo.. */}
+            {/*level and company Logo*/}
             <div className="flex mb-6 gap-1">
-              {/* .....cadidate lavel input..... */}
+              {/*candidate level input*/}
               <div className="w-full md:w-1/2 mb-2 md:mb-0">
-                <label className="block mb-2">Lavel*</label>
+                <label className="block mb-2">Level*</label>
                 <select
                   {...register("level", {
                     required: {
@@ -232,14 +232,14 @@ const RecruiterAddJobs = () => {
                   <option>Senior Level</option>
                 </select>
                 <label className="label p-[2px]">
-                  {errors.lavel?.type === "required" && (
+                  {errors.level?.type === "required" && (
                     <span className="label-text-alt text-red-500">
-                      {errors.lavel.message}
+                      {errors.level.message}
                     </span>
                   )}
-                  {errors.lavel?.type === "pattern" && (
+                  {errors.level?.type === "pattern" && (
                     <span className="label-text-alt text-red-500">
-                      {errors.lavel.message}
+                      {errors.level.message}
                     </span>
                   )}
                 </label>
@@ -273,9 +273,9 @@ const RecruiterAddJobs = () => {
                 </label>
               </div>
             </div>
-            {/* ...level and company Logo.. */}
+            {/*level and company Logo*/}
             <div className="flex mb-6 gap-1">
-              {/* .....Company Detail ..... */}
+              {/*Company Detail*/}
               <div className="w-full md:w-1/2 mb-2 md:mb-0">
                 <label className="block mb-2">Company Name*:</label>
                 <input
@@ -303,7 +303,7 @@ const RecruiterAddJobs = () => {
                 </label>
               </div>
 
-              {/* .....Company Website ..... */}
+              {/*Company Website*/}
               <div className="w-full md:w-1/2 mb-2 md:mb-0">
                 <label className="block mb-2">Company Website*:</label>
                 <input
@@ -331,9 +331,9 @@ const RecruiterAddJobs = () => {
                 </label>
               </div>
             </div>
-            {/* ...level and company Logo.. */}
+            {/*level and company Logo*/}
             <div className="flex mb-6 gap-1">
-              {/* .....Address ..... */}
+              {/*Address*/}
               <div className="w-full md:w-1/2 mb-2 md:mb-0">
                 <label className="block mb-2">Address*:</label>
                 <input
@@ -361,7 +361,7 @@ const RecruiterAddJobs = () => {
                 </label>
               </div>
 
-              {/* .....Company Website ..... */}
+              {/*Company Website*/}
               <div className="w-full md:w-1/2 mb-2 md:mb-0">
                 <label className="block mb-2">Vacancy*:</label>
                 <input
@@ -389,7 +389,7 @@ const RecruiterAddJobs = () => {
                 </label>
               </div>
             </div>
-            {/* .....Job description input fied...... */}
+            {/*Job description input field*/}
             <div className="flex flex-wrap mb-2">
               <div className="w-full">
                 <label className="block mb-2">Job Description*</label>

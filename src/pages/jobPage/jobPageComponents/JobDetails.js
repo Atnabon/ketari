@@ -3,7 +3,6 @@ import PageTitleBanner from "../../../globalComponents/PageTitleBanner";
 import { FaMoneyCheckAlt } from "react-icons/fa";
 import { FaMapMarkerAlt } from "react-icons/fa";
 import { MdWorkOutline } from "react-icons/md";
-import { MdCastForEducation } from "react-icons/md";
 import { BiNotepad } from "react-icons/bi";
 import { useParams, useNavigate } from "react-router-dom";
 import { useGetJobByIdQuery } from "../../../features/job/jobApi";
@@ -71,7 +70,7 @@ const JobDetails = () => {
               <PageTitleBanner title={job?.title} />
               <div className="shadow-lg p-4 mb-4 border">
                 <div className="grid grid-flow-row-dense sm:grid-cols-1 md:grid-cols-2 gap-3">
-                  {/* .......compani Logo...... */}
+                  {/*company Logo*/}
                   {/* <div className="flex justify-center md:justify-start items-center bg-secondary rounded">
                     <img
                       src="https://templates.envytheme.com/jubi/default/assets/images/hot-jobs/hot-jobs-6.png"
@@ -80,7 +79,7 @@ const JobDetails = () => {
                     />
                   </div> */}
 
-                  {/* .......Basic job information........ */}
+                  {/*Basic job information*/}
                   <div className="grid justify-items-center lg:justify-items-start">
                     <p className="text-lg font-bold ">{job?.title}</p>
                     <p className="text-sm">{job?.company_link}</p>
@@ -90,7 +89,7 @@ const JobDetails = () => {
                     </p>
                   </div>
 
-                  {/* .........apply button and deadline....... */}
+                  {/*apply button and deadline*/}
 
                   <>
                     <div className="flex justify-center  md:justify-end gap-1">
@@ -141,61 +140,11 @@ const JobDetails = () => {
               </div>
 
               <div className="p-4 shadow-lg border">
-                {/* .........job description.............*/}
+                {/*job description*/}
                 <p className="text-2xl font-semibold text-accent">
                   Job Description
                 </p>
                 <p className="py-4">{job?.description}</p>
-
-                {/*
-                <p className="text-2xl font-semibold text-accent py-4">
-                  Education & Experience
-                </p>
-                <ul className="steps steps-vertical">
-                  <li className="step step-primary " data-content="✓">
-                    M.B.S / M.B.A under National University with CA course
-                    complete.
-                  </li>
-                  <li className="step  step-primary" data-content="✓">
-                    3 or more years of professional design experience
-                  </li>
-                  <li className="step  step-primary" data-content="✓">
-                    Excellent communication skills, most notably a demonstrated
-                    ability to solicit and address creative.
-                  </li>
-                  <li className="step  step-primary" data-content="✓">
-                    3Masters of library science any Green University.
-                  </li>
-                  <li className="step  step-primary" data-content="✓">
-                    BA/BS degree in a technical field or equivalent practical
-                    experience.
-                  </li>
-                  <li className="step  step-primary" data-content="✓">
-                    Ability to work independently and to carry out assignments
-                    to completion within parameters of instructions .
-                  </li>
-                </ul>
-
-                
-
-                <p className="text-2xl font-semibold py-4">Responsibilities</p>
-                <ul className="steps steps-vertical">
-                  <li className="step step-primary " data-content="✓">
-                    Explore and design dynamic and compelling consumer
-                    experiences.
-                  </li>
-                  <li className="step  step-primary" data-content="✓">
-                    Have sound knowledge of commercial activities.
-                  </li>
-                  <li className="step  step-primary" data-content="✓">
-                    Build next-generation web applications with a focus on the
-                    client side.
-                  </li>
-                  <li className="step  step-primary" data-content="✓">
-                    The applicants should have experience in the following areas
-                  </li>
-                </ul>
-                */}
               </div>
             </>
           )}
@@ -242,22 +191,6 @@ const JobDetails = () => {
                 </p>
               </div>
             </div>
-
-            {/*
-
-            <div className="flex flex-row justify-start items-center gap-5 px-4 py-2">
-              <div className="ptext-4xl text-primary">
-                <MdCastForEducation />
-              </div>
-              <div className="grid justify-items-center lg:justify-items-start">
-                <p className="text-lg font-bold">
-                  Qualification :{" "}
-                  <span className="text-sm font-light">Mba</span>
-                </p>
-              </div>
-            </div>
-
-              */}
 
             <div className="flex flex-row justify-start items-center gap-5 px-4 py-2">
               <div className="text-4xl text-primary">

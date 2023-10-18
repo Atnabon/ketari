@@ -5,7 +5,7 @@ const ProfileBanner = () => {
   return (
     <section className="py-16 bg-secondary">
       <div className="grid lg:grid-cols-2 justify-center items-center px-5 gap-10 container mx-auto">
-        {/*............prifile section image start.........*/}
+        {/*prifile section image start*/}
         <div className="flex justify-start items-center sm:mb-5">
           <img
             src="/habesha-girl.png"
@@ -13,9 +13,9 @@ const ProfileBanner = () => {
             className="w-full rounded-md"
           />
         </div>
-        {/*........profile section image end..........*/}
+        {/*profile section image end*/}
 
-        {/*...........profile section info data start....... */}
+        {/*profile section info data start*/}
         <div className="flex justify-center items-center">
           <div>
             <p className="text-base md:text-xl lg:text-2xl font-bold text-primary mb-1 md:mb-3">
@@ -40,7 +40,7 @@ const ProfileBanner = () => {
             </Link>
           </div>
         </div>
-        {/*.........profile section info data end..............*/}
+        {/*profile section info data end*/}
       </div>
     </section>
   );

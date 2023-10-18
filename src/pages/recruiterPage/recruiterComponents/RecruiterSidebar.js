@@ -16,7 +16,7 @@ const RecruiterSidebar = () => {
   return (
     <>
       <ul className="menu p-4 overflow-y-auto w-60 bg-[#022339] text-base-content">
-        {/* <!-- Sidebar content here --> */}
+        {/*Sidebar content here*/}
         <li>
           <Link
             to="job/post"

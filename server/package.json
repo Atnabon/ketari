@@ -1,5 +1,5 @@
 {
-  "name": "talent-recruiter-server",
+  "name": "ketari-server",
   "version": "1.0.0",
   "description": "This is job hunting website for job seeker",
   "main": "index.js",
@@ -14,7 +14,7 @@
     "express",
     "mongoose"
   ],
-  "author": "alpha infinity team",
+  "author": "eagle team",
   "license": "MIT",
   "dependencies": {
     "bcryptjs": "^2.4.3",

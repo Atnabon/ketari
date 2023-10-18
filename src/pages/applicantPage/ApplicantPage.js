@@ -28,7 +28,6 @@ const ApplicantPage = () => {
         </div>
         {/* mobile sidebar open menu end*/}
 
-        {/* <!-- Page content here --> */}
         <Outlet />
       </div>
       <div className="drawer-side h-screen">

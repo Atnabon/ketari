@@ -49,7 +49,7 @@ const Navbar = () => {
         className={`w-full py-5 shadow-lg bg-white duration-700 ${stickyClass}`}
       >
         <div className="flex justify-between items-center container mx-auto px-5">
-          {/*.......Website Logo........*/}
+          {/*Website Logo*/}
           <div>
             <NavLink
               className="cursor-pointer hover:bg-[#fdb82c] hover:text-[#fdb82c] bg-opacity-90"
@@ -62,7 +62,7 @@ const Navbar = () => {
             </NavLink>
           </div>
 
-          {/*.......md and lg navbar start.......*/}
+          {/*md and lg navbar start*/}
           <div className="hidden md:block">
             <div className="flex items-center justify-between sm:gap-10">
               <div>
@@ -166,9 +166,9 @@ const Navbar = () => {
               </div>
             </div>
           </div>
-          {/*........md and lg navbar start.........*/}
+          {/*md and lg navbar start*/}
 
-          {/*.........Mobile navbar start..........*/}
+          {/*Mobile navbar start*/}
           <label className="btn bg-white hover:bg-white px-3 swap swap-rotate border-2 md:hidden">
             <input type="checkbox" onClick={() => setCheckbox(!checkbox)} />
             <svg
@@ -267,7 +267,7 @@ const Navbar = () => {
               </ul>
             </div>
           )}
-          {/*.........Mobile navbar end............*/}
+          {/*Mobile navbar end*/}
         </div>
       </div>
     </header>

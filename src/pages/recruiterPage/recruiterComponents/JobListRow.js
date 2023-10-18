@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import { useDeleteJobMutation } from "../../../features/recruiter/recruiterApi";
-import { confirmAlert } from "react-confirm-alert"; // Import
+import { confirmAlert } from "react-confirm-alert";
 import { toast } from "react-toastify";
 import moment from "moment";
 moment().format();
@@ -42,7 +42,6 @@ const JobListRow = ({ job }) => {
   };
   console.log(job.status);
 
-
   return (
     <>
       <tr className="border-b border-gray-200 hover:bg-gray-100">
@@ -67,7 +66,8 @@ const JobListRow = ({ job }) => {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke="currentColor">
+                  stroke="currentColor"
+                >
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -93,7 +93,8 @@ const JobListRow = ({ job }) => {
                   xmlns="http://www.w3.org/2000/svg"
                   fill="none"
                   viewBox="0 0 24 24"
-                  stroke="currentColor">
+                  stroke="currentColor"
+                >
                   <path
                     strokeLinecap="round"
                     strokeLinejoin="round"
@@ -111,12 +112,14 @@ const JobListRow = ({ job }) => {
             </Link>
             <div
               onClick={() => handleDelete(job._id)}
-              className="w-4 mr-2 transform hover:text-purple-500 hover:scale-110 cursor-pointer">
+              className="w-4 mr-2 transform hover:text-purple-500 hover:scale-110 cursor-pointer"
+            >
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke="currentColor">
+                stroke="currentColor"
+              >
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
@@ -125,18 +128,6 @@ const JobListRow = ({ job }) => {
                 />
               </svg>
             </div>
-            {/*
-            <div
-              aria-disabled={job.status === false ? false : true}
-              onClick={() =>
-                job.status === false ? null : handlePayment(job._id)
-              }
-              className={`${
-                job.status === false && "cursor-not-allowed"
-              } w-4 mr-2 transform hover:text-purple-500 hover:scale-110 cursor-pointer`}>
-              <SiAmazonpay size={20} />
-            </div>
-            */}
           </div>
         </td>
       </tr>

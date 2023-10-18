@@ -1,10 +1,10 @@
 import React, { lazy, Suspense } from "react";
 import { Routes, Route, useLocation } from "react-router-dom";
 import { InfinitySpin } from "react-loader-spinner";
+
 const EmailNewsLetter = lazy(() =>
   import("./pages/emailNewsletter/EmailNewsLetter")
 );
-
 const HomePage = lazy(() => import("./pages/homePage/HomePage"));
 const Footer = lazy(() => import("./globalComponents/Footer"));
 const Navbar = lazy(() => import("./globalComponents/Navbar"));
@@ -97,13 +97,13 @@ function App() {
       <Suspense
         fallback={
           <div className="flex justify-center mx-auto">
-            {/*======================== root level lazy loader ========================*/}
+            {/*root level lazy loader*/}
             <InfinitySpin width="300" color="#4fa94d" />
           </div>
         }
       >
         <Routes>
-          {/*======================== admin dashboard start ======================== */}
+          {/*admin dashboard start */}
           <Route
             path="/admin"
             element={
@@ -144,9 +144,9 @@ function App() {
               element={<AdminDeleteCategory />}
             />
           </Route>
-          {/*======================== admin dashboard end ========================*/}
+          {/*admin dashboard end*/}
 
-          {/*======================== recruiter dashboard start ========================*/}
+          {/*recruiter dashboard start*/}
           <Route
             path="/recruiter"
             element={
@@ -216,9 +216,9 @@ function App() {
               }
             />
           </Route>
-          {/*======= recruiter dashboard end ========================*/}
+          {/*recruiter dashboard end*/}
 
-          {/* ======================== applicant dashboard start ======================== */}
+          {/*applicant dashboard start*/}
           <Route
             path="/applicant"
             element={
@@ -249,9 +249,9 @@ function App() {
             <Route path="bookmark-job" element={<ApplicantSaveJob />} />
             <Route path="message" element={<ApplicantMessage />} />
           </Route>
-          {/* ======================== applicant dashboard end ======================== */}
+          {/*applicant dashboard end*/}
 
-          {/*======================== public Page routes start ========================*/}
+          {/*public Page routes start*/}
           <Route path="/" element={<HomePage />} />
           <Route path="/home" element={<HomePage />} />
           <Route path="/about" element={<AboutPage />} />

@@ -16,7 +16,7 @@ import { Link } from "react-router-dom";
 const Footer = () => {
   return (
     <footer>
-      {/* ......scroll to top button..... */}
+      {/*scroll to top button*/}
       <ScrollToTop
         smooth
         color="white"
@@ -32,7 +32,7 @@ const Footer = () => {
 
       <div className="bg-[#F9FCFF] py-16">
         <div className="grid px-5 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-3 container mx-auto text-base-100">
-          {/* .......footer info start........ */}
+          {/*footer info start*/}
           <div>
             <div>
               <div>
@@ -60,9 +60,9 @@ const Footer = () => {
               </div>
             </div>
           </div>
-          {/* .......footer info end........ */}
+          {/*footer info end*/}
 
-          {/* .......footer Job Categories start........ */}
+          {/*footer Job Categories start*/}
           <div>
             <h2 className="text-2xl font-bold text-primary">Job Categories</h2>
             <ul className="mt-5">
@@ -84,9 +84,9 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          {/* .......footer Job Categories end........ */}
+          {/*footer Job Categories end*/}
 
-          {/* .......footer Resources start........ */}
+          {/*footer Resources start*/}
           <div>
             <h2 className="text-2xl font-bold text-primary">Resources</h2>
             <ul className="mt-5">
@@ -112,9 +112,9 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          {/* .......footer Resources end........ */}
+          {/*footer Resources end*/}
 
-          {/* .......footer quick link start........ */}
+          {/*footer quick link start*/}
           <div>
             <h2 className="text-2xl font-bold text-primary">Quick Links</h2>
             <ul className="mt-5">
@@ -136,9 +136,9 @@ const Footer = () => {
               </li>
             </ul>
           </div>
-          {/* .......footer quick link end........ */}
+          {/*footer quick link end*/}
 
-          {/* .......footer contact us start........ */}
+          {/*footer contact us start*/}
           <div>
             <h2 className="text-2xl font-bold mb-5 text-primary">Contact Us</h2>
             <div className="flex justify-start items-center gap-3 mb-3">
@@ -171,7 +171,7 @@ const Footer = () => {
         </div>
       </div>
 
-      {/* ......copyright section..... */}
+      {/*copyright section*/}
       <div className="p-4 bg-[#fdb82c] text-base-100">
         <div className="flex justify-center items-center">
           <p className="text-xs">

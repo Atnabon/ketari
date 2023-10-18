@@ -32,7 +32,6 @@ const AdminPage = () => {
           </div>
           {/* mobile sidebar open menu end*/}
 
-          {/* <!-- Page content here --> */}
           <Outlet />
           {/* {(location === '/dashboard' || location === '/dashboard/') && (
             <AdminDashboard />

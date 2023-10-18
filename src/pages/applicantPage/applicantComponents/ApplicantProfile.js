@@ -19,7 +19,7 @@ const ApplicantProfile = () => {
           className="w-full bg-secondary p-5 md:p-10 shadow-lg"
         >
           <div className="flex mb-6 gap-1">
-            {/* .....first name input..... */}
+            {/*first name input*/}
             <div className="w-full md:w-1/2 mb-2 md:mb-0">
               <label className="block mb-2">First Name*</label>
               <input
@@ -48,7 +48,7 @@ const ApplicantProfile = () => {
               </label>
             </div>
 
-            {/* .....last name input..... */}
+            {/*last name input*/}
             <div className="w-full md:w-1/2 mb-2 md:mb-0">
               <label className="block mb-2">Last Name*</label>
               <input
@@ -77,9 +77,9 @@ const ApplicantProfile = () => {
             </div>
           </div>
 
-          {/* ......email and phone input.. */}
+          {/*email and phone input*/}
           <div className="flex mb-6 gap-1">
-            {/* .......email input..... */}
+            {/*email input*/}
             <div className="w-full md:w-1/2 mb-2 md:mb-0">
               <label className="block mb-2">Email*</label>
 
@@ -108,7 +108,7 @@ const ApplicantProfile = () => {
               </label>
             </div>
 
-            {/* .....phone number input..... */}
+            {/*phone number input*/}
             <div className="w-full md:w-1/2 mb-2 md:mb-0">
               <label className="block mb-2">Phone*</label>
               <input
@@ -138,9 +138,9 @@ const ApplicantProfile = () => {
             </div>
           </div>
 
-          {/* .......Category and profile image.. */}
+          {/*Category and profile image*/}
           <div className="flex mb-6 gap-1">
-            {/* .....profile image file input..... */}
+            {/*profile image file input*/}
             <div className="w-full md:w-1/2 mb-2 md:mb-0">
               <label className="block mb-2">profile*:</label>
               <input

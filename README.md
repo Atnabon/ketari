@@ -1,6 +1,6 @@
-# Overview of Ketari Talent Recruiter
+# Overview of Ketari
 
-TalentRecruiter is a job hunting platform where users can find the desired jobs. In this web application, we provide different kinds of jobs from multiple companies. Job seekers can post resumes, portfolios, and work-related profiles on job boards. Employers and recruiters can look through such information when searching for candidates to hire.
+Ketari is a job hunting platform where users can find the desired jobs. In this web application, we provide different kinds of jobs from multiple companies. Job seekers can post resumes, portfolios, and work-related profiles on job boards. Employers and recruiters can look through such information when searching for candidates to hire.
 
 # Feature of the project:
 

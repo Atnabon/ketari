@@ -14,8 +14,6 @@ const SearchComponent = () => {
     axios
       .get(
         "https://raw.githubusercontent.com/atnabon/fakeData/main/countries.json"
-
-
       )
       .then((res) => {
         setCountries(res.data.data);
@@ -64,7 +62,7 @@ const SearchComponent = () => {
             onSubmit={handleSubmit(onSubmit)}
             className="grid sm:grid-cols-4 md:grid-cols-4 gap-1"
           >
-            {/*........keyword type input........*/}
+            {/*keyword type input*/}
             <input
               type="text"
               required
@@ -72,7 +70,7 @@ const SearchComponent = () => {
               className="input w-full rounded-none input-bordered"
               {...register("keyword")}
             />
-            {/*........select location input........*/}
+            {/*select location input*/}
             <select
               required
               defaultValue=""
@@ -92,7 +90,7 @@ const SearchComponent = () => {
               }
             </select>
 
-            {/*.......select category input.......*/}
+            {/*select category input*/}
             <select
               required
               defaultValue=""
@@ -104,7 +102,7 @@ const SearchComponent = () => {
               </option>
               {categoryContent}
             </select>
-            {/*........search button..........*/}
+            {/*search button*/}
             <button
               type="submit"
               className="btn rounded-none w-full duration-700 bg-[#fec557]  hover:bg-transparent text-white border-[#fdb82c] hover:border-primary hover:text-primary  py-3 cursor-pointer font-bold"

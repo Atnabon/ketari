@@ -6,7 +6,6 @@ import RecruiterSidebar from "./recruiterComponents/RecruiterSidebar";
 const RecruiterPage = () => {
   return (
     <div className="drawer drawer-mobile border-t-2">
-      
       <PageTitle title="Recruiter" />
       <input id="my-drawer-2" type="checkbox" className="drawer-toggle" />
       <div className="drawer-content p-4">
@@ -29,7 +28,6 @@ const RecruiterPage = () => {
         </div>
         {/* mobile sidebar open menu end*/}
 
-        {/* <!-- Page content here --> */}
         <Outlet />
       </div>
       <div className="drawer-side h-screen">

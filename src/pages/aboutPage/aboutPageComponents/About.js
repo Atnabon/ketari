@@ -7,7 +7,7 @@ const About = () => {
         <div className="flex justify-start items-center sm:mb-5 ">
           <img src="/team.jpg" alt="about banner" className="w-full  h-auto" />
         </div>
-        {/*........blog banner image end..........*/}
+        {/*blog banner image end*/}
 
         <div className="flex justify-center items-center">
           <div>

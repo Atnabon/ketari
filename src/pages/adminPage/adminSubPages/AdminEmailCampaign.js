@@ -54,12 +54,14 @@ const AdminEmailCampaign = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                className="stroke-current flex-shrink-0 w-6 h-6 mx-3 cursor-pointer">
+                className="stroke-current flex-shrink-0 w-6 h-6 mx-3 cursor-pointer"
+              >
                 <path
                   strokeLinecap="round"
                   strokeLinejoin="round"
                   strokeWidth="2"
-                  d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"></path>
+                  d="M13 16h-1v-4h-1m1-4h.01M21 12a9 9 0 11-18 0 9 9 0 0118 0z"
+                ></path>
               </svg>
             </div>
             <input
@@ -139,13 +141,15 @@ const AdminEmailCampaign = () => {
         m-0
         focus:text-gray-700 focus:bg-white focus:border-primary focus:outline-none"
               placeholder="Enter email body"
-              rows={6}></textarea>
+              rows={6}
+            ></textarea>
           </div>
 
           <button
             type="submit"
             disabled={isLoading}
-            className="btn flex justify-center items-center mx-auto btn-primary bg-opacity-90">
+            className="btn flex justify-center items-center mx-auto btn-primary bg-opacity-90"
+          >
             {isLoading ? (
               <ThreeDots
                 height="20"
@@ -163,7 +167,7 @@ const AdminEmailCampaign = () => {
           </button>
         </form>
       </div>
-      {/*=========== preview section ========*/}
+      {/*preview section*/}
       {(titleInput || description || userEmail) && (
         <div className="block p-2 rounded-lg shadow-lg bg-white ">
           <div className="mb-6">
@@ -180,7 +184,8 @@ const AdminEmailCampaign = () => {
         bg-white bg-clip-padding
         border border-solid border-gray-300
         rounded
-">
+"
+            >
               Preview
             </h2>
           </div>
@@ -201,7 +206,8 @@ const AdminEmailCampaign = () => {
         transition
         ease-in-out
         m-0
-        focus:text-gray-700 focus:bg-white focus:border-primary focus:outline-none">
+        focus:text-gray-700 focus:bg-white focus:border-primary focus:outline-none"
+              >
                 {userEmail}
               </h2>
             </div>
@@ -224,7 +230,8 @@ const AdminEmailCampaign = () => {
         ease-in-out
         m-0
         focus:text-gray-700 focus:bg-white focus:border-primary focus:outline-none"
-                placeholder="Enter post title">
+                placeholder="Enter post title"
+              >
                 {titleInput}
               </h2>
             </div>
@@ -246,7 +253,8 @@ const AdminEmailCampaign = () => {
         transition
         ease-in-out
         m-0
-        focus:text-gray-700 focus:bg-white focus:border-primary focus:outline-none">
+        focus:text-gray-700 focus:bg-white focus:border-primary focus:outline-none"
+              >
                 {description}
               </p>
             </div>

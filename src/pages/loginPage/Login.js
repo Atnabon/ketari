@@ -37,25 +37,8 @@ const Register = () => {
       <div className="flex py-8 sm:pt-16  px-2 justify-center items-center">
         <div className="card w-96 bg-base-100 shadow-xl rounded-none">
           <div className="card-body">
-           
-
-           {/*
-           <h4>Login with</h4>
-
-            
-            <div className="flex gap-2 mb-3">
-              <button className="btn bg-[#C80911] border-[#C80911] rounded-none hover:border-[#C80911] border-2 text-white hover:text-[#C80911] w-[49%] hover:shadow-lg font-bold hover:bg-white">
-                Google
-              </button>
-              <button className="btn bg-[#005B7F] border-[#005B7F] rounded-none hover:border-[#005B7F] border-2 text-white hover:text-[#005B7F] w-[49%] hover:shadow-lg font-bold hover:bg-white">
-                Facebook
-              </button>
-            </div>
-            <div className="divider m-0">or</div>
-           */}
-            
             <form onSubmit={handleSubmit(onSubmit)}>
-              {/* .........Email Input filed start ............*/}
+              {/*Email Input filed start*/}
               <div className="form-control w-full max-w-xs">
                 <label className="label">
                   <span className="label-text">Email</span>
@@ -88,9 +71,9 @@ const Register = () => {
                   )}
                 </label>
               </div>
-              {/* ...........Email Input filed end .............*/}
+              {/*Email Input filed end */}
 
-              {/*......... Password Input filed start....... */}
+              {/*Password Input filed start*/}
               <div className="form-control w-full max-w-xs">
                 <label className="label">
                   <span className="label-text">Password</span>
@@ -124,9 +107,9 @@ const Register = () => {
                   )}
                 </label>
               </div>
-              {/*......... Password Input filed start....... */}
+              {/*Password Input filed start*/}
 
-              {/* ..........Login Button.......... */}
+              {/*Login Button*/}
               <input
                 disabled={isLoading}
                 className="btn btn-primary bg-[#fdb82c] border-[#fdb82c] hover:bg-transparent hover:border-primary hover:text-primary font-bold w-full max-w-xs text-white rounded-none hover:shadow-lg"
@@ -137,7 +120,10 @@ const Register = () => {
             <p>
               <small>
                 Not Registered Yet?{" "}
-                <Link className="text-primary hover:underline underline" to="/register">
+                <Link
+                  className="text-primary hover:underline underline"
+                  to="/register"
+                >
                   please register
                 </Link>
               </small>
